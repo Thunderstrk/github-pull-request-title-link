@@ -10,3 +10,6 @@ Changes pull requests titles that reference a JIRA ticket to a link.
 1. Check the "Developer Mode" box
 1. Click "Load Unpacked Extension"
 1. Select repo folder
+
+http://github.com - automatic!
+[GitHub](http://github.com)
