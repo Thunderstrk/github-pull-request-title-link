@@ -6,6 +6,6 @@ var titles = [].concat(
 
 titles.forEach(
     function (title) {
-        title.innerHTML = title.textContent.replace(/([A-Z]+-[0-9]+)/g, '<a href="https://liaison-intl.atlassian.net/browse/$1" target="_blank">$1</a>');
+        title.innerHTML = title.textContent.replace(/([A-Z]+-[0-9]+)/g, '<a href="https://issues.liferay.com/browse/$1" target="_blank">$1</a>');
     }
 );
