@@ -2,14 +2,18 @@
   "author": "Dustin Ryerson",
   "content_scripts": [
     {
-      "matches": ["https://github.com/*"],
+      "matches": ["https://github.com/*", "*://*.mozilla.org/*"],
       "js": ["jquery.js", "github-title-link.js"]
     }
   ],
   "description": "No one adds ticket links to their pull requests :(",
-  "icons": { "16": "fork16.png",
-            "128": "fork128.png" },
+  "icons": { "16": "fork16.png", "128": "fork128.png" },
   "manifest_version": 2,
   "name": "GitHub Title Link",
-  "version": "1.1"
+  "version": "1.1",
+  "applications": {
+    "gecko": {
+      "id": "justARandomSignature"
+    }
+  }
 }
